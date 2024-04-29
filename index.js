@@ -14,7 +14,7 @@ let client = new Discord.Client()
 
 
 client.on('ready', () => {
- client.user.setActivity(`1.0.1 your prefix here`, { type: 'PLAYING'})
+ client.user.setActivity(`ROBLOX`, { type: 'PLAYING'})
 })
 
 client.login(process.env.token);
